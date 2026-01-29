@@ -124,7 +124,7 @@ export const SignInView = () => {
 
                                 {!!error && (
                                     <Alert className="bg-destructive/10 border-none">
-                                        <OctagonAlertIcon className="h-4 w-4 !text-destructive" />
+                                        <OctagonAlertIcon className="h-4 w-4 text-destructive!" />
                                         <AlertTitle>{error}</AlertTitle>
                                     </Alert>
                                 )}
@@ -169,7 +169,7 @@ export const SignInView = () => {
                         </form>
                     </Form>
 
-                    <div className="bg-radial from-green-700 to-green-900 relative hidden md:flex flex-col items-center justify-center gap-y-4">
+                    <div className="bg-radial from-sidebar-accent to-sidebar relative hidden md:flex flex-col items-center justify-center gap-y-4">
                         <img src="/logo.svg" alt="Image logo" className="h-[92px] w-[92px]" />
                         <p className="text-2xl font-semibold text-white">Pactum.AI</p>
                     </div>
