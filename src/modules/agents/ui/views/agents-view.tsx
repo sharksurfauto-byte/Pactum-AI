@@ -7,7 +7,7 @@ import { useTRPC } from "@/trpc/client";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { columns } from "../components/columns";
 import { DataTable } from "../components/data-table";
-import { useAgentsFilters } from "../../hooks/use-agents-filters";
+import { useAgentsFilters } from "../../hooks/use-agents-filter";
 import { DataPagination } from "../components/data-pagination";
 
 const AgentsView = () => {

@@ -1,18 +1,18 @@
-import { Loader2Icon } from "lucide-react";
+import { AlertTriangleIcon } from "lucide-react";
 
 interface Props {
     title: string;
     description: string;
 }
 
-export const LoadingState = ({ title, description }: Props) => {
+export const ErrorState = ({ title, description }: Props) => {
     return (
         <div className="py-4 px-8 flex flex-1 items-center justify-center">
             <div className="flex flex-col items-center justify-center gap-y-6 bg-background rounded-lg p-10 shadow-sm">
-                <Loader2Icon className="size-6 animate-spin text-primary" />
+                <AlertTriangleIcon className="size-6 text-destructive" />
                 <div className="flex flex-col gap-y-2 text-center">
                     <h6 className="text-lg font-medium">{title}</h6>
-                    <p className="text-sm">{description}</p>
+                    <p className="text-sm text-muted-foreground">{description}</p>
                 </div>
             </div>
         </div>
