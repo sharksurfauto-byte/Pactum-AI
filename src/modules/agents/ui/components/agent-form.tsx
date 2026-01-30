@@ -1,4 +1,4 @@
-import GenerateAvatar from "@/components/generate-avatar";
+import GenerateAvatar from "@/components/generated-avatar";
 import { Button } from "@/components/ui/button";
 import {
     Form,
