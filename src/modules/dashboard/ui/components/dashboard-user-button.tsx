@@ -3,7 +3,7 @@
 import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 
-import GenerateAvatar from "@/components/generated-avatar";
+import { GenerateAvatar } from "@/components/generate-avatar";
 import { ChevronDownIcon, CreditCardIcon, LogOutIcon } from "lucide-react";
 
 import { Avatar, AvatarImage } from "@/components/ui/avatar";

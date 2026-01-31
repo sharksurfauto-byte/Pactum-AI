@@ -1,6 +1,6 @@
 "use client";
 
-import GenerateAvatar from "@/components/generated-avatar";
+import { GenerateAvatar } from "@/components/generate-avatar";
 import { Badge } from "@/components/ui/badge";
 import { ColumnDef } from "@tanstack/react-table";
 import { CornerDownRightIcon, VideoIcon } from "lucide-react";

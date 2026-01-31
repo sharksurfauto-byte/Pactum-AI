@@ -30,6 +30,11 @@ const firstSection = [
         label: "Agents",
         href: "/agents",
     },
+    {
+        icon: StarIcon,
+        label: "Financial",
+        href: "/financial",
+    },
 ];
 
 const secondSection = [

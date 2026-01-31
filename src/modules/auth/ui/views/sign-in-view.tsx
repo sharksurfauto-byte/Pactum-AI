@@ -84,8 +84,16 @@ export const SignInView = () => {
                         <form className="p-6 md:p-8" onSubmit={form.handleSubmit(onSubmit)}>
                             <div className="flex flex-col gap-6">
                                 <div className="flex flex-col items-center text-center">
+                                    <div className="md:hidden mb-4">
+                                        <Image
+                                            src="/logo.svg"
+                                            alt="Pactum.AI Logo"
+                                            width={48}
+                                            height={48}
+                                        />
+                                    </div>
                                     <h1 className="text-2xl font-bold">Welcome back</h1>
-                                    <p className="text-muted-foreground text-balance">Login to your account</p>
+                                    <p className="text-muted-foreground text-balance">Login to your <span className="text-primary font-bold">Pactum.AI</span> account</p>
                                 </div>
 
                                 <div className="grid gap-3">
