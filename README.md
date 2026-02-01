@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Pactum-AI 🤝
+============
 
-## Getting Started
+**AI-powered contract analysis and risk intelligence system**
 
-First, run the development server:
+📌 Overview
+-----------
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Pactum-AI** is an AI-driven system designed to analyze legal contracts, identify potential risks, extract critical clauses, and provide structured insights to assist decision-making.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project focuses on applying **Natural Language Processing (NLP)** and **LLM-based reasoning** to automate one of the most time-consuming tasks in legal and business workflows: **contract review**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀 Key Features
+---------------
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   📄 **Contract ingestion** – Upload and process raw contract text
+    
+*   🧠 **Clause extraction** – Identify and classify key legal clauses
+    
+*   ⚠️ **Risk flagging** – Highlight potentially risky or ambiguous clauses
+    
+*   🏷️ **Structured outputs** – Convert unstructured legal text into usable data
+    
+*   🔍 **Semantic understanding** – Context-aware analysis instead of keyword matching
+    
 
-## Learn More
+🧠 How It Works (High-Level)
+----------------------------
 
-To learn more about Next.js, take a look at the following resources:
+1.  Contract text is preprocessed and cleaned
+    
+2.  NLP pipelines extract clause boundaries and semantic meaning
+    
+3.  LLM-based reasoning analyzes obligations, liabilities, and risks
+    
+4.  Results are returned in a structured, readable format
+    
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This approach prioritizes **contextual understanding** over rule-based heuristics.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🛠️ Tech Stack
+--------------
 
-## Deploy on Vercel
+*   **Python**
+    
+*   **Natural Language Processing (NLP)**
+    
+*   **Large Language Models (LLMs)**
+    
+*   **Prompt engineering**
+    
+*   **Text preprocessing & parsing**
+    
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_(Model/API layer can be swapped depending on deployment requirements.)_
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📂 Project Structure
+--------------------
+
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Pactum-AI/├── data/               # Sample or test contracts├── src/                # Core logic and pipelines├── notebooks/          # Experiments and analysis├── requirements.txt    # Dependencies└── README.md   `
+
+🎯 Use Cases
+------------
+
+*   Legal teams reviewing large volumes of contracts
+    
+*   Startups analyzing vendor or partnership agreements
+    
+*   Compliance checks for obligations and liabilities
+    
+*   Educational exploration of AI in legal-tech
+    
+
+📈 Current Status
+-----------------
+
+*   Core contract analysis logic implemented
+    
+*   Clause extraction and risk reasoning functional
+    
+*   Prototype stage (not production-hardened)
+    
+
+🧪 Limitations
+--------------
+
+*   Not a substitute for licensed legal advice
+    
+*   Accuracy depends on model quality and prompt design
+    
+*   Complex jurisdiction-specific clauses may require fine-tuning
+    
+
+🔮 Future Improvements
+----------------------
+
+*   Contract comparison and version diffing
+    
+*   Confidence scoring for extracted clauses
+    
+*   Web-based UI for uploads and visualization
+    
+*   Fine-tuned domain-specific language models
+    
+*   Audit logs and explainability layer
+    
+
+👤 Author
+---------
+
+**Aliasghar (sharksurfauto-byte)**AI / ML DeveloperFocused on building practical, end-to-end AI systems
